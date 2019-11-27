@@ -1,0 +1,53 @@
+﻿<meta charset="utf-8">
+<script>
+var p = function fp(x,y)
+	{
+	return (x+y);
+	}
+var m = function fm(x,y)
+	{
+	return (x-y);
+	}
+var u = function fu(x,y)
+	{
+	return (x*y);
+	}
+var d = function fd(x,y)
+	{
+	return (x/y);
+	}
+
+//alert(p(2,6));
+//alert(m(2,6));
+//alert(u(2,6));
+//alert(d(2,6));
+
+function v(arg1,arg2,option)
+	{
+	switch (option)
+		{
+		case 'p':
+		alert('вы ввели p');
+		alert(p(arg1,arg2));
+		break;
+		case 'm':
+		alert('вы ввели m');
+		alert(m(arg1,arg2));
+		break;
+		case 'u':
+		alert('вы ввели u');
+		alert(u(arg1,arg2));
+		break;
+		case 'd':
+		alert('вы ввели d');
+		alert(d(arg1,arg2));
+		break;
+		}
+	}
+
+alert(v(2,6,'p'));
+alert(v(2,6,'m')); 
+alert(v(2,6,'u'));
+alert(v(2,6,'d'));
+
+</script>
